@@ -1,3 +1,6 @@
+/*
+2. Write a c program, to input a integer number and display its equivalent octal ,hexadecimal and decimal value .
+*/
 #include <stdio.h>
 int main(int argc, char const *argv[]) {
   int number;

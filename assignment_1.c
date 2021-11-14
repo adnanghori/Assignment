@@ -1,3 +1,8 @@
+/*1.Write a C program to evaluate the following expression and display their results
+(a)  x2+2x3 (2x)
+(b)x+y2+z3
+Where x ,y,z are integers.
+*/
 #include <stdio.h>
 int main(int argc, char const *argv[]) {
   int x,result,y,z;
@@ -14,5 +19,5 @@ int main(int argc, char const *argv[]) {
   result = (x)+(y*y)+(z*z*z);
   printf("b. x+y^2+z^3=%d\n",result);
   return 0;
-  
+
 }
