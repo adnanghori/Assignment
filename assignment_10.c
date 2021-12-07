@@ -7,17 +7,17 @@ Output4=_ _ _ _ _ _+00026.4
 */
 #include <stdio.h>
 int main(int argc, char const *argv[]) {
-  for(int i =0;i<=4;i++){
-    printf("_ ");
-    if(i==4){
+  for(int i =-4;i<=0;i++){
+    printf("%d ",i);
+    if(i==0){
       for(int j=1;j<=6;j++){
-        printf("%d",j); // output 1
+        printf(" %d",j); // output 1
       }
     }
   }
   printf("\n");
-  for(int i=1;i<=6;i++){
-    printf("%d",i); // output 2
+  for(int i=1;i<=24;i++){
+    printf("%d ",i); // output 2
 
   }
   printf("\n");
